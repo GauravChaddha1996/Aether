@@ -4,6 +4,7 @@ import com.gaurav.aether.base.BaseView
 
 interface HomeView : BaseView<HomeState> {
     var viewModel: HomeViewModel
+    var sortOption: SortOption
 
     override fun attachView() {
         viewModel.attachView(this)

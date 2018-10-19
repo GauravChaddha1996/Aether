@@ -47,25 +47,28 @@ I want to use some language features of kotlin like:
 
 	- Data class
 	- when, is , as
-	- scoping functions: apply, let, run, with, also
-	- init block
 	- sealed class
-	- higher order f() and lambdas
 	- collections
-	- generics
 	- parameter name calling
 	
 Don't know where I'll apply these 
    	
+	- generics (Declaration site variance, Type projection, Covariance, Variance): Documentation page
+	- coroutines
+    - ktx
+    
+	- scoping functions: apply, let, run, with, also
+	- init block
 	- extension f()s
+	- higher order f() and lambdas
 	- delegate property (lazy, lateinit, custom)
+	
 	- backing fields and properties
 	- companion object
 	- type alias
 	- require(), check()
 	- inline f()s and reified type parameters
-	- coroutines
-	- ktx
+	
 In terms of libraries, I wish to use an alternative to fragments and learn advanced OkHTTP. 
 Also the architecture would be MVI with RxJava (Hopefully RxKotlin).
 
